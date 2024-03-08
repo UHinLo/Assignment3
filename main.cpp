@@ -29,12 +29,12 @@ int main()
   // Two electrons, four muons, one antielectron, one antimuon
   particles.emplace_back("electron", 0.511, true, random_velocity());
   particles.emplace_back("electron", 0.511, true, random_velocity());
-  particles.emplace_back("muon", 105.7, true, random_velocity());
-  particles.emplace_back("muon", 105.7, true, random_velocity());
-  particles.emplace_back("muon", 105.7, true, random_velocity());
-  particles.emplace_back("muon", 105.7, true, random_velocity());
+  particles.emplace_back("muon", 105.658, true, random_velocity());
+  particles.emplace_back("muon", 105.658, true, random_velocity());
+  particles.emplace_back("muon", 105.658, true, random_velocity());
+  particles.emplace_back("muon", 105.658, true, random_velocity());
   particles.emplace_back("electron", 0.511, false, random_velocity());
-  particles.emplace_back("muon", 105.7, false, random_velocity());
+  particles.emplace_back("muon", 105.658, false, random_velocity());
 
   // Print information about particles in the vector
   for(const auto& particle : particles)
