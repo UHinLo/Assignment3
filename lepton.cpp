@@ -3,10 +3,11 @@
 #include <iomanip>
 #include "lepton.h"
 
-// Default constuctor
-lepton::lepton(): particle_type("Cat"), rest_mass(0), charge(1), check_particle(true), velocity(0), beta(0)
-{
-}
+// Default constructor
+lepton::lepton():
+  particle_type("Cat"), rest_mass(0), charge(1), check_particle(true), velocity(0), beta(0)
+  {
+  }
 
 // Parameterized constructor
 lepton::lepton(const std::string& type, double mass, bool particle, double v):
