@@ -1,17 +1,17 @@
 #include <iostream>
 #include "detector.h"
 
-// Default constuctor
+// Default constructor
 detector::detector():
   detector_type("tracker"), status(false), detector_particles_number(0)
-{
-}
+  {
+  }
 
 // Parameterized constructor
 detector::detector(const std::string& type):
   detector_type(type), status(false), detector_particles_number(0)
-{
-}
+  {
+  }
 
 // Destructor
 detector::~detector()
